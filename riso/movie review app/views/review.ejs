@@ -1,0 +1,7 @@
+<h2>Write Review for <%= movie.title %></h2>
+<form action="/submit-review" method="POST">
+  <input type="hidden" name="movieId" value="<%= movie.id %>">
+  <input type="text" name="reviewer" placeholder="Your Name" required>
+  <textarea name="content" placeholder="Your Review" required></textarea>
+  <button type="submit">Submit</button>
+</form>

@@ -1,0 +1,5 @@
+body { font-family: Arial; margin: 0; padding: 0; background: #f4f4f4; }
+nav { background: #333; color: white; padding: 1em; display: flex; gap: 1em; }
+nav a { color: white; text-decoration: none; }
+form { display: flex; flex-direction: column; gap: 1em; padding: 1em; }
+
