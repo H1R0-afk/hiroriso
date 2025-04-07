@@ -1,8 +1,0 @@
-<h2>All Reviews</h2>
-<% reviews.forEach(review => {
-  const movie = movies.find(m => m.id === review.movieId); %>
-  <div>
-    <strong><%= review.reviewer %></strong> reviewed <%= movie.title %>:
-    <p><%= review.content %></p>
-  </div>
-<% }) %>
